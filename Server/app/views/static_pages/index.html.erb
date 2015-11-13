@@ -1,0 +1,56 @@
+<div class="hero">
+    <br />
+
+    <div class="frosty col-xs-10 col-xs-offset-1">
+        <br />
+    	<h1>Embark on a trek!</h1>
+    	<br />
+    	<h2>Explore different food in your area, in a fun way.</h2>
+    	<br />
+    	 <%= link_to 'Explore', treks_path, :class => 'btn btn-success btn-lg' %>
+    	<br />
+        <br />
+    </div>
+
+    </div>
+    <br />
+
+    <div class="col-xs-10 col-xs-offset-1 features text-center">
+        <div class="col-sm-4">
+            <br />
+            <h2><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></h2>
+            <br />
+            <h3>World Trek</h3>
+            <br />
+            <h4>Take the change to try food from other countries.</h4>
+            <br />
+            <%= button_to "Join the World Trek", trek_path(Trek.find(1)), :class => "frosty btn btn-default", :method => :get %>
+            <br />
+        </div>
+
+        <div class="col-sm-4">
+            <br />
+            <h2><span class="glyphicon glyphicon-book" aria-hidden="true"></span></h2>
+            <br />
+            <h3>University Trek (Boston)</h3>
+            <br />
+            <h4>Go to other schools in Boston, dine and make new friends.</h4>
+            <br />
+            <%= button_to "Join the University Trek", trek_path(Trek.find(2)), :class => "frosty btn btn-default", :method => :get %>
+            <br />
+        </div>
+
+        <div class="col-sm-4">
+            <br />
+            <h2><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span></h2>
+            <br />
+            <h3>Create Your Own</h3>
+            <br />
+            <h4>Sharing your special dining experiences with others.</h4>
+            <br />
+            <%= button_to "Create one now", new_trekker_trek_path, :class => "frosty btn btn-default", :method => :get %>
+            <br />
+        </div>
+    </div>
+
+</div>

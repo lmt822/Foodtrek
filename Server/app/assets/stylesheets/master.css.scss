@@ -1,0 +1,242 @@
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin:10px;
+}
+
+.navbar {
+	border-radius:0;
+	font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background:url('dark_geometric.png');
+
+}
+
+
+.navbar-inverse a.navbar-brand {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  color:white;
+ }
+
+ .hero {
+  background: url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:510px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+ }
+
+ h1, h2, h3, h4, h5, h6, .navbar {
+  margin:0;
+}
+
+.frosty {
+  background:rgba(0,0,0, 0.7);
+  color:white;
+}
+
+.frosty h1 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 200;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.btn {
+  border-radius:0;
+  /* background:#1836AD; */
+}
+
+body {
+	background: url('noisy.png');
+	/* Trebuchet-based sans serif stack */
+	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+.clr{
+	clear:both;
+}
+
+.field_with_errors {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding:8px;
+  margin:10px;
+}
+
+.restaurant {
+  background-color:white;
+  margin-top:10px;
+  height:130px;
+
+}
+
+.restaurant a {
+  color:black;
+  font-family: "Helvetica Neue",Helvetica;
+  font-weight:100;
+  font-size: 15px;
+}
+
+.restaurant a b {
+  font-weight: 100;
+  font-size:25px;
+}
+
+.section {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+}
+
+ul {
+      list-style-type: none;
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding:20px;
+  margin:20px;
+}
+
+ul .header {
+  font-size:25px;
+}
+
+ul .header .glyphicon {
+  font-size:20px;
+}
+
+.restaurants li {
+  background:black;
+  color:white;
+  margin:10px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  padding:8px;
+  font-size:15px;
+
+}
+
+.restaurants li b {
+  font-size:    25px;
+  font-weight:  100;
+
+}
+
+.restaurants li p {
+  margin:0;
+
+}
+
+input#user_email {
+  width: 500px;
+  margin: 5px;
+}
+
+input#user_password, input#user_password_confirmation {
+  width: 500px;
+  margin: 5px;
+} 
+
+#usernav {
+  color: white;
+}
+
+#map-canvas {
+  height:   300px;
+  margin:   10px;
+  padding:  10px;
+}
+
+.simple_form div.input {
+  margin-bottom: 10px;
+  clear: both; /* Required for Webkit, but not for Gecko */
+}
+
+.simple_form label {
+  float: left;
+  width: 100px;
+  text-align: right;
+  margin: 2px 10px;
+}
+
+div.boolean, .simple_form input[type='submit'] {
+  margin-left: 120px;
+}
+
+div.boolean label, label.collection_radio_buttons {
+  float: none;
+  margin: 0;
+}
+
+label.collection_radio_buttons {
+  margin-right: 10px;
+  vertical-align: -2px;
+  margin-left: 2px;
+}
+
+.field_with_errors {
+  background-color: #ff3333;
+}
+
+.simple_form .error {
+  clear: left;
+  color: black;
+  display: block;
+  margin-left: 120px;
+}
+
+.simple_form .hint {
+  clear: left;
+  margin-left: 120px;
+  color: #555;
+  display: block;
+  font-style: italic;
+}
+
+.zxx_text_overflow
+{
+    width:90%; 
+    margin-left: 5%;
+    white-space:nowrap; 
+    text-overflow:ellipsis; 
+    -o-text-overflow:ellipsis; 
+    overflow:hidden;}
+
+input.radio {
+  margin-right: 5px;
+  vertical-align: -3px;
+}
+
+input.check_boxes {
+  margin-left: 3px;
+  vertical-align: -3px;
+}
+
+label.collection_check_boxes {
+  float: none;
+  margin: 0;
+  vertical-align: -2px;
+  margin-left: 2px;
+}
+

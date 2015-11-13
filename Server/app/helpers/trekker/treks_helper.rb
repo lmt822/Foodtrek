@@ -1,0 +1,2 @@
+module Trekker::TreksHelper
+end

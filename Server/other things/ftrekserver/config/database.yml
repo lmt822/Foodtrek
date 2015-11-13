@@ -1,0 +1,30 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ftrek_development
+  pool: 5
+  username: postgres
+  password: password
+  host: localhost
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: ftrek_test
+  pool: 5
+  username: postgres
+  password: password
+  host: localhost
+  port: 5432
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: dbikes66qfai05
+  pool: 5
+  username: oprggbyhjfvhxc
+  password: 6bpMIAObgVmBPnYpYvt5t995R0
+  host: ec2-23-23-81-189.compute-1.amazonaws.com
+  port: 5432

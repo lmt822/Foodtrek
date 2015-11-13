@@ -1,0 +1,2 @@
+module Trekker::RestaurantsHelper
+end
