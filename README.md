@@ -1,5 +1,5 @@
 # FoodTrek 
-	[link](http://foodtrek.herokuapp.com)
+[link](http://foodtrek.herokuapp.com)
 ### Team members
 * Tiancheng Li
 * Mengtian Li
